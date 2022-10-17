@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/MyProjects/MinDic/app/src/main/res/drawable/add_btn_shape.xml" value="0.1" />
+        <entry key="..\:/MyProjects/MinDic/app/src/main/res/drawable/alphabet_animation.xml" value="0.1" />
+        <entry key="..\:/MyProjects/MinDic/app/src/main/res/drawable/alphabet_click.xml" value="0.1" />
+        <entry key="..\:/MyProjects/MinDic/app/src/main/res/drawable/back.xml" value="0.1" />
+        <entry key="..\:/MyProjects/MinDic/app/src/main/res/drawable/bottom_nav_menu_24.xml" value="0.1" />
+        <entry key="..\:/MyProjects/MinDic/app/src/main/res/drawable/bottom_nav_shape.xml" value="0.1" />
+        <entry key="..\:/MyProjects/MinDic/app/src/main/res/drawable/button_shape.xml" value="0.1" />
+        <entry key="..\:/MyProjects/MinDic/app/src/main/res/drawable/close_red.xml" value="0.1" />
+        <entry key="..\:/MyProjects/MinDic/app/src/main/res/drawable/dic.xml" value="0.1" />
+        <entry key="..\:/MyProjects/MinDic/app/src/main/res/drawable/edit_text_shape.xml" value="0.1" />
+        <entry key="..\:/MyProjects/MinDic/app/src/main/res/drawable/edit_text_shape_red.xml" value="0.1" />
+        <entry key="..\:/MyProjects/MinDic/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.1" />
+        <entry key="..\:/MyProjects/MinDic/app/src/main/res/drawable/ic_baseline_arrow_back_ios_24.xml" value="0.1" />
+        <entry key="..\:/MyProjects/MinDic/app/src/main/res/drawable/ic_baseline_arrow_forward_ios_24.xml" value="0.1" />
+        <entry key="..\:/MyProjects/MinDic/app/src/main/res/drawable/ic_baseline_arrow_right_alt_24.xml" value="0.1" />
+        <entry key="..\:/MyProjects/MinDic/app/src/main/res/drawable/ic_baseline_info_24.xml" value="0.1" />
+        <entry key="..\:/MyProjects/MinDic/app/src/main/res/drawable/ic_baseline_menu_24.xml" value="0.1" />
+        <entry key="..\:/MyProjects/MinDic/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.1" />
+        <entry key="..\:/MyProjects/MinDic/app/src/main/res/drawable/ic_baseline_settings_applications_24.xml" value="0.1" />
+        <entry key="..\:/MyProjects/MinDic/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/MyProjects/MinDic/app/src/main/res/drawable/interested.xml" value="0.1" />
+        <entry key="..\:/MyProjects/MinDic/app/src/main/res/drawable/intreste_img_selector.xml" value="0.1" />
+        <entry key="..\:/MyProjects/MinDic/app/src/main/res/drawable/language.xml" value="0.1" />
+        <entry key="..\:/MyProjects/MinDic/app/src/main/res/drawable/language_list_shape.xml" value="0.1" />
+        <entry key="..\:/MyProjects/MinDic/app/src/main/res/drawable/more_c46.xml" value="0.1" />
+        <entry key="..\:/MyProjects/MinDic/app/src/main/res/drawable/not_interested.xml" value="0.1" />
+        <entry key="..\:/MyProjects/MinDic/app/src/main/res/drawable/popup_shape.xml" value="0.1" />
+        <entry key="..\:/MyProjects/MinDic/app/src/main/res/drawable/recent.xml" value="0.1" />
+        <entry key="..\:/MyProjects/MinDic/app/src/main/res/drawable/red_menu.xml" value="0.1" />
+        <entry key="..\:/MyProjects/MinDic/app/src/main/res/drawable/search.xml" value="0.1" />
+        <entry key="..\:/MyProjects/MinDic/app/src/main/res/drawable/search_blue.xml" value="0.1" />
+        <entry key="..\:/MyProjects/MinDic/app/src/main/res/drawable/send.xml" value="0.1" />
+        <entry key="..\:/MyProjects/MinDic/app/src/main/res/drawable/text_link_selector.xml" value="0.1" />
+        <entry key="..\:/MyProjects/MinDic/app/src/main/res/drawable/toolbar_shape.xml" value="0.1" />
+        <entry key="..\:/MyProjects/MinDic/app/src/main/res/drawable/top_app_bar_shape.xml" value="0.1" />
+        <entry key="..\:/MyProjects/MinDic/app/src/main/res/drawable/word.xml" value="0.1" />
+        <entry key="..\:/MyProjects/MinDic/app/src/main/res/font/font.xml" value="0.1" />
+        <entry key="..\:/MyProjects/MinDic/app/src/main/res/font/roboto.xml" value="0.10416666666666667" />
+        <entry key="..\:/MyProjects/MinDic/app/src/main/res/layout/activity_about_app.xml" value="0.3123644251626898" />
+        <entry key="..\:/MyProjects/MinDic/app/src/main/res/layout/activity_add_language.xml" value="0.22" />
+        <entry key="..\:/MyProjects/MinDic/app/src/main/res/layout/activity_add_word.xml" value="0.22" />
+        <entry key="..\:/MyProjects/MinDic/app/src/main/res/layout/activity_google_translate.xml" value="0.22" />
+        <entry key="..\:/MyProjects/MinDic/app/src/main/res/layout/activity_interested_words.xml" value="0.22" />
+        <entry key="..\:/MyProjects/MinDic/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/MyProjects/MinDic/app/src/main/res/layout/activity_my_dictionary.xml" value="0.3333333333333333" />
+        <entry key="..\:/MyProjects/MinDic/app/src/main/res/layout/activity_recent_words.xml" value="0.16666666666666666" />
+        <entry key="..\:/MyProjects/MinDic/app/src/main/res/layout/activity_splash.xml" value="0.1796875" />
+        <entry key="..\:/MyProjects/MinDic/app/src/main/res/layout/activity_words.xml" value="0.1796875" />
+        <entry key="..\:/MyProjects/MinDic/app/src/main/res/layout/add_word_dialog.xml" value="0.22" />
+        <entry key="..\:/MyProjects/MinDic/app/src/main/res/layout/delete.xml" value="0.1796875" />
+        <entry key="..\:/MyProjects/MinDic/app/src/main/res/layout/delete_word_dialog.xml" value="0.22" />
+        <entry key="..\:/MyProjects/MinDic/app/src/main/res/layout/dropdown_item.xml" value="0.1" />
+        <entry key="..\:/MyProjects/MinDic/app/src/main/res/layout/languages_layout.xml" value="0.1796875" />
+        <entry key="..\:/MyProjects/MinDic/app/src/main/res/layout/layout_switch.xml" value="0.1" />
+        <entry key="..\:/MyProjects/MinDic/app/src/main/res/layout/my_text_view.xml" value="0.1796875" />
+        <entry key="..\:/MyProjects/MinDic/app/src/main/res/layout/navigation_header.xml" value="0.22" />
+        <entry key="..\:/MyProjects/MinDic/app/src/main/res/layout/popup.xml" value="0.1796875" />
+        <entry key="..\:/MyProjects/MinDic/app/src/main/res/layout/popup_dictionary_menu.xml" value="0.3333333333333333" />
+        <entry key="..\:/MyProjects/MinDic/app/src/main/res/layout/spinner_item.xml" value="0.1796875" />
+        <entry key="..\:/MyProjects/MinDic/app/src/main/res/layout/words_layout.xml" value="0.3333333333333333" />
+        <entry key="..\:/MyProjects/MinDic/app/src/main/res/menu/bottom_app_bar.xml" value="0.1796875" />
+        <entry key="..\:/MyProjects/MinDic/app/src/main/res/menu/dictionary_menu.xml" value="0.1796875" />
+        <entry key="..\:/MyProjects/MinDic/app/src/main/res/menu/navigation_menu.xml" value="0.1" />
+        <entry key="..\:/MyProjects/MinDic/app/src/main/res/menu/navigation_rail_menu.xml" value="0.134765625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK" />
+</project>

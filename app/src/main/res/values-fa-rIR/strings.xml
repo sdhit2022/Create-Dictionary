@@ -1,0 +1,95 @@
+<resources>
+    <string name="app_name">Create Dictionary</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="share">ارسال / اشتراک برنامه</string>
+    <string name="rename_dic">ویرایش نام</string>
+    <string name="about_app">درباره ی برنامه</string>
+    <string name="settings">تنظیمات</string>
+    <string name="text_translate">مترجم متن</string>
+    <string name="source_text"> متن</string>
+    <string name="translation"> ترجمه</string>
+    <string name="translated_text"> متن ترجمه شده</string>
+    <string name="pdf_dic">ذخیره بصورت pdf</string>
+    <string name="search">جست و جو</string>
+    <string name="Actions">عمليات</string>
+    <string name="add_language">افزودن لغتنامه</string>
+    <string name="save">ذخیره</string>
+    <string name="translate">ترجمه</string>
+    <string name="delete">حذف</string>
+    <string name="cancel">انصراف</string>
+    <string name="add_word">افزودن لغت</string>
+    <string name="mind_dic">لغتنامه من</string>
+    <string name="interested_words">لغت های مورد علاقه</string>
+    <string name="recent_words">لغت های اخیر</string>
+    <string name="verb">فعل</string>
+    <string name="noun">اسم</string>
+    <string name="adjective">صفت</string>
+    <string name="destination_language_hint">زبان مقصد را انتخاب کنید</string>
+    <string name="home_language_hint">زبان مبدا را انتخاب کنید</string>
+    <string name="search_hint">جست و جوی کلمه</string>
+    <string name="adverb">قید</string>
+    <string name="word">کلمه</string>
+    <string name="word_d">لغت</string>
+    <string name="mean">معنی</string>
+    <string name="description">توضیحات</string>
+    <string name="dark_mode">مطالعه در شب</string>
+    <string name="say">بیان کلمه</string>
+    <string name="saying">بیان کردن</string>
+    <string name="or">یا</string>
+    <string name="fill_fields">لطفا فیلد ها را پر نمایید</string>
+    <string name="edit_dic">ویرایش نام واژه نامه </string>
+    <string name="select_word_type">لطفا نوع واژه را انتخاب کنید</string>
+    <string name="translating">در حال ترجمه ...</string>
+    <string name="downloading_translator">در حال دانلود مترجم، لطفا کمی صبر کنید ...</string>
+    <string name="new_word_added">لغت جدید اضافه شد</string>
+    <string name="enter_destination">لطفا زبان مقصد را وارد کنید</string>
+    <string name="enter_source">لطفا زبان مبدا را وارد کنید</string>
+    <string name="fill_word_entry">فیلد کلمه را پر کنید</string>
+    <string name="fill_text_entry">فیلد متن را پر کنید</string>
+    <string name="favorite_list_empty">لیست لغت های مورد علاقه خالی است!</string>
+    <string name="there_is_not_word">واژه ای وجود ندارد!</string>
+    <string name="dictionary_saved">دیکشنری با موفقیت ذخیره شد</string>
+    <string name="incorrect_info">اطلاعات نادرست است</string>
+    <string name="dictionary_deleted">دیکشنری حذف شد</string>
+    <string name="word_updated">لغت به روز رسانی شد</string>
+    <string name="delete_dictionary">دیکشنری حذف شود؟</string>
+    <string name="done">انجام شد</string>
+    <string name="word_deleted">لغت حذف شد </string>
+    <string name="delete_word">لغت حذف شود؟ </string>
+    <string name="delete_from_favorite">لغت از لیست مورد علاقه حذف شود؟</string>
+    <string name="dictionary_updated">دیکشنری به روز رسانی شد</string>
+    <string name="dictionary_created">دیکشنری جدید ایجاد شد</string>
+    <string name="recent_list_empty">لیست لغت های اخیر خالی است!</string>
+    <string name="words_list_empty">لیست لغت ها خالی است ، برای افزودن لغت روی + بزنید</string>
+    <string name="back_pressed">برای خروج ، مجددا دکمه "بازگشت" را بزنید</string>
+    <string name="check_network">در برقراری ارتباط با اینترنت مشکلی پیش آمده است ، لطفا از وجود دسترسی به شبکه اطمینان حاصل کنید</string>
+
+
+    <string name="share_text">\nسلام دوست عزیز \nاگر برای یادگیری لغت تو یه زبان جدید مشکل داری ...\n" +
+                                "اگر برای یادآوری هر لغتی که معنیش رو فراموش کردی مجبوری بری سراغ دیکشنری و یا google translate  هی بگردی و بگردی..." +
+                                "\nاگر تلفظ صحیح لغت هایی که یاد گرفتی فراموش میکنی و نیاز به مرور سریع و راحت داری ..." +
+                                "\nبهت پیشنهاد می کنم که حتما این اپلیکیشن رو دانلود کنی :)\n\n
+    </string>
+
+    <string name="about_app_text">برنامه ی ایجاد دیکشنری با امکان ایجاد دیکشنری بصورت نامحدود با بیش از 30 زبان مختلف بصورت آفلاین و آنلاین ، در صورت استفاده آنلاین از برنامه می توانید از مترجم برنامه استفاده کنید.
+\nپشتیبانی از قابلیت تشخیص گفتار به نوشتار به زبان انتخاب شده دستگاه موبایل بصورت آفلاین
+\nقابلیت تلفظ آفلاین لغت به زبان های انگلیسی ، آلمانی ، فرانسوی ، چینی و ژاپنی
+\nقابلیت ترجمه متن بصورت آنلاین
+\nقابلیت جست و جو در بین لغت های ذخیره شده
+\nقابلیت ذخیره ی دیکشنری به صورت pdf
+\nقابلیت علامت گذاری لغت ها به عنوان لغت های مورد علاقه
+\nقابلیت مرور لغت های اخیر ( بازدید یا اضافه شده)
+\n🔔 توجه:با توجه به پراکندگی دستگاه‌ها و مدل‌های مختلف سیستم عامل اندروید ممکن است عملکرد نرم‌افزار و یا بخش‌های از آن بر روی برخی دستگاه‌ها با اختلال روبه‌رو باشد. بخش دیکشنری و تلفظ احتیاج به اینترنت ندارد و کاملاً آفلاین است.
+    </string>
+
+    <string name="app_version">نسخه
+1.7
+\nتاریخ به‌روزرسانی
+1 شهریور 1401</string>
+    <string name="content_description_search">کلمه مورد نظر خود را در این قسمت جست و جو کنید</string>
+    <string name="more">More</string>
+    <string name="double_back">برای خروج ، دوباره دکمه بازگشت را بزنید</string>
+
+
+</resources>

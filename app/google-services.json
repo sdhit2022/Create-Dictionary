@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "252604460476",
+    "project_id": "mindic-da679",
+    "storage_bucket": "mindic-da679.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:252604460476:android:3e44c6a9cd91ccb1cfcfb9",
+        "android_client_info": {
+          "package_name": "sdh.it.mindic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "252604460476-ajnlovm4c1amffe27j4d5s93lmii21q4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB87WD_rJPzitOFBIBaQ5Xt6fLIY_RAR7w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "252604460476-ajnlovm4c1amffe27j4d5s93lmii21q4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

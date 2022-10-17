@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/add_word_view"
+    android:background="?attr/backgroundColor"
+    android:elevation="0dp"
+    android:outlineProvider="none"
+    tools:context=".views.WordsActivity">
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/backgroundColor"
+        android:elevation="0dp"
+        android:outlineProvider="none"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        >
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/word_top_app_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:navigationIcon="@drawable/ic_baseline_arrow_forward_ios_24"
+            app:title="Dic"
+            app:titleCentered="true"
+            android:padding="5dp"
+            app:titleTextColor="@color/red">
+        </com.google.android.material.appbar.MaterialToolbar>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="5dp"
+            android:gravity="center_horizontal"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            >
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/search_word_edit_text"
+                style="@style/ThemeOverlay.Material3.TextInputEditText.FilledBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:hint="@string/search_hint"
+                app:startIconDrawable="@drawable/search_red"
+                app:startIconTint="@color/red"
+                app:boxCornerRadiusBottomEnd="10dp"
+                app:boxCornerRadiusBottomStart="10dp"
+                app:boxCornerRadiusTopEnd="10dp"
+                app:boxCornerRadiusTopStart="10dp"
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:focusedByDefault="false"
+                    android:textColor="?attr/colorOnSecondary"
+                    android:textSize="14dp"
+                    android:singleLine="true" />
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="120dp"
+        android:id="@+id/words_list_recycler_view"
+        ></androidx.recyclerview.widget.RecyclerView>
+    <TextView
+        android:id="@+id/info_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:gravity="center"
+        android:layout_margin="30dp"
+        android:padding="10dp"
+        android:text="text"
+        android:textColor="@color/AF"
+        android:textSize="15sp"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/alphabet_linear_layout"
+        android:orientation="vertical"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:layout_marginTop="115dp"
+        android:layout_marginRight="5dp"
+        android:layout_width="28dip" android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:background="@android:color/transparent"
+        >
+
+        <TextView android:id="@+id/A" android:text="A" android:tag="A"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="13dp"
+            android:textColor="@drawable/text_link_selector"
+            />
+        <TextView android:id="@+id/B" android:text="B" android:tag="B"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="13dp"
+            android:textColor="@drawable/text_link_selector"/>
+        <TextView android:id="@+id/C" android:text="C" android:tag="C"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="13dp"
+            android:textColor="@drawable/text_link_selector"/>
+        <TextView android:id="@+id/D" android:text="D" android:tag="D"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="13dp"
+            android:textColor="@drawable/text_link_selector"/>
+        <TextView android:id="@+id/E" android:text="E" android:tag="E"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="13dp"
+            android:textColor="@drawable/text_link_selector"/>
+        <TextView android:id="@+id/F" android:text="F" android:tag="F"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="13dp"
+            android:textColor="@drawable/text_link_selector"/>
+        <TextView android:id="@+id/G" android:text="G" android:tag="G"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="13dp"
+            android:textColor="@drawable/text_link_selector"/>
+        <TextView android:id="@+id/H" android:text="H" android:tag="H"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="13dp"
+            android:textColor="@drawable/text_link_selector"/>
+        <TextView android:id="@+id/I" android:text="I" android:tag="I"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textColor="@drawable/text_link_selector"/>
+        <TextView android:id="@+id/J" android:text="J" android:tag="J"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="13dp"
+            android:textColor="@drawable/text_link_selector"/>
+        <TextView android:id="@+id/K" android:text="K" android:tag="K"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="13dp"
+            android:textColor="@drawable/text_link_selector"/>
+        <TextView android:id="@+id/L" android:text="L" android:tag="L"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="13dp"
+            android:textColor="@drawable/text_link_selector"/>
+        <TextView android:id="@+id/M" android:text="M" android:tag="M"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="13dp"
+            android:textColor="@drawable/text_link_selector"/>
+        <TextView android:id="@+id/N" android:text="N" android:tag="N"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="13dp"
+            android:textColor="@drawable/text_link_selector"/>
+        <TextView android:id="@+id/O" android:text="O" android:tag="O"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="13dp"
+            android:textColor="@drawable/text_link_selector"/>
+        <TextView android:id="@+id/P" android:text="P" android:tag="P"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="13dp"
+            android:textColor="@drawable/text_link_selector"/>
+        <TextView android:id="@+id/Q" android:text="Q" android:tag="Q"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="13dp"
+            android:textColor="@drawable/text_link_selector"/>
+        <TextView android:id="@+id/R" android:text="R" android:tag="R"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="13dp"
+            android:textColor="@drawable/text_link_selector"/>
+        <TextView android:id="@+id/S" android:text="S" android:tag="S"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="13dp"
+            android:textColor="@drawable/text_link_selector"/>
+        <TextView android:id="@+id/T" android:text="T" android:tag="T"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="13dp"
+            android:textColor="@drawable/text_link_selector"/>
+        <TextView android:id="@+id/U" android:text="U" android:tag="U"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="13dp"
+            android:textColor="@drawable/text_link_selector"/>
+        <TextView android:id="@+id/V" android:text="V" android:tag="V"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="13dp"
+            android:textColor="@drawable/text_link_selector"/>
+                <TextView android:id="@+id/W" android:text="W" android:tag="W"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+                    android:textSize="13dp"
+            android:textColor="@drawable/text_link_selector"/>
+        <TextView android:id="@+id/X" android:text="X" android:tag="X"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="13dp"
+            android:textColor="@drawable/text_link_selector"/>
+        <TextView android:id="@+id/Y" android:text="Y" android:tag="Y"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="13dp"
+            android:textColor="@drawable/text_link_selector"/>
+        <TextView android:id="@+id/Z" android:text="Z" android:tag="Z"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="13dp"
+            android:textColor="@drawable/text_link_selector"/>
+
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/add_word_fab"
+        android:backgroundTint="@color/red"
+        android:src="@drawable/ic_baseline_add_24"
+        android:layout_gravity="end|bottom"
+        android:layout_margin="15dp"
+
+        />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

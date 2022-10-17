@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+   <item
+        android:id="@+id/share"
+        android:title="@string/share"
+        android:enabled="true"
+        android:icon="@drawable/share"
+        />
+    <item
+        android:id="@+id/about_us"
+        android:title="@string/about_app"
+        android:enabled="true"
+        android:icon="@drawable/about"
+        />
+
+
+    <item
+        android:id="@+id/text_translator"
+        android:title="@string/text_translate"
+        android:enabled="true"
+        android:icon="@drawable/texttranslate"
+        />
+
+
+
+</menu>

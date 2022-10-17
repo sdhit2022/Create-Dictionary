@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    android:id="@+id/main_drawer"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="?attr/backgroundColor"
+    android:layout_gravity="end"
+    tools:context=".views.MainActivity"
+    tools:ignore="HardcodedText"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+        android:id="@+id/home_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/appBarLayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="?attr/backgroundColor"
+            android:elevation="0dp"
+            android:outlineProvider="none"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="MissingConstraints">
+
+            <com.google.android.material.appbar.MaterialToolbar
+                android:id="@+id/top_app_bar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:navigationIcon="@drawable/red_menu"
+                app:title="@string/app_name"
+                app:titleCentered="true"
+                app:titleTextColor="@color/red">
+
+            </com.google.android.material.appbar.MaterialToolbar>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?attr/colorOnPrimary"
+                />
+        </com.google.android.material.appbar.AppBarLayout>
+
+
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+            android:id="@+id/swipe_refresh_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="MissingConstraints">
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/lan_list_view"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="60dp"
+                tools:ignore="MissingConstraints" />
+
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+            <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+                android:id="@+id/add_fab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="16dp"
+                android:backgroundTint="@color/red"
+                android:text="@string/Actions"
+                app:icon="@drawable/ic_baseline_add_24"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <!--Floating action button for add alarm-->
+            <!--Make sure that you are constraining this
+                button to the parent button-->
+            <!--Make sure to add backgroundTint attribute to match
+                the entire application color-->
+            <!--because after changing the base application theme the color
+                of the FAB is set Blue as default-->
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/add_language_fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:backgroundTint="@color/red"
+            app:fabSize="normal"
+            app:layout_constraintBottom_toTopOf="@+id/add_fab"
+            app:layout_constraintEnd_toEndOf="@+id/add_fab"
+            app:srcCompat="@drawable/language"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+            <!--Action name text for the add language button-->
+            <!--Make sure that you are constraining this
+                Text to the add Alarm FAB button-->
+            <TextView
+                android:id="@+id/add_language_action_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:text="@string/add_language"
+                android:textColor="?attr/colorOnSecondary"
+                app:layout_constraintBottom_toBottomOf="@+id/add_language_fab"
+                app:layout_constraintEnd_toStartOf="@+id/add_language_fab"
+                app:layout_constraintTop_toTopOf="@+id/add_language_fab" />
+
+
+
+            <!--Floating action button for mind_dic-->
+            <!--Make sure that you are constraining this button
+                to the mind_dic FAB button-->
+            <!--Make sure to add backgroundTint attribute to match
+                the entire application color-->
+            <!--because after changing the base application theme
+                the color of the FAB is set Blue as default-->
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/mind_dic_fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:backgroundTint="@color/red"
+            app:fabSize="normal"
+            app:layout_constraintBottom_toTopOf="@+id/add_language_fab"
+            app:layout_constraintEnd_toEndOf="@+id/add_language_fab"
+            app:layout_constraintStart_toStartOf="@+id/add_language_fab"
+            app:srcCompat="@drawable/not_interested"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+            <!--Action name text for the mind_dic button-->
+            <!--Make sure that you are constraining this Text
+                to the mind_dic FAB button-->
+            <TextView
+                android:id="@+id/mind_dic_action_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:text="@string/interested_words"
+                android:textColor="?attr/colorOnSecondary"
+                app:layout_constraintBottom_toBottomOf="@+id/mind_dic_fab"
+                app:layout_constraintEnd_toStartOf="@+id/mind_dic_fab"
+                app:layout_constraintTop_toTopOf="@+id/mind_dic_fab" />
+            <!--This will be the parent Floating Action Button-->
+            <!--After the implementation the Floating Action Button at
+        the bottom right corner as we have constrained accordingly-->
+            <!--After clicking the above button the
+        following two buttons will pop up.
+        So this button is considered as parent FAB-->
+            <!--After opening the application it looks like regular
+        FAB but after user clicks it, it extends-->
+            <!--This functionality has been handled in the MainActivity.java-->
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/recent_words_fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:backgroundTint="@color/red"
+            app:fabSize="normal"
+            app:layout_constraintBottom_toTopOf="@+id/mind_dic_fab"
+            app:layout_constraintEnd_toEndOf="@+id/mind_dic_fab"
+            app:layout_constraintStart_toStartOf="@+id/mind_dic_fab"
+            app:srcCompat="@drawable/recent"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <!--Action name text for the mind_dic button-->
+        <!--Make sure that you are constraining this Text
+            to the mind_dic FAB button-->
+        <TextView
+            android:id="@+id/recent_words_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:text="@string/recent_words"
+            android:textColor="?attr/colorOnSecondary"
+            app:layout_constraintBottom_toBottomOf="@+id/recent_words_fab"
+            app:layout_constraintEnd_toStartOf="@+id/recent_words_fab"
+            app:layout_constraintTop_toTopOf="@+id/recent_words_fab" />
+        <!--This will be the parent Floating Action Button-->
+        <!--After the implementation the Floating Action Button at
+    the bottom right corner as we have constrained accordingly-->
+        <!--After clicking the above button the
+    following two buttons will pop up.
+    So this button is considered as parent FAB-->
+        <!--After opening the application it looks like regular
+    FAB but after user clicks it, it extends-->
+        <!--This functionality has been handled in the MainActivity.java-->
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start|end"
+        android:backgroundTint="?attr/backgroundColor"
+        app:itemTextColor="?attr/colorOnSecondary"
+        android:id="@+id/navigation"
+        app:menu="@menu/navigation_menu"
+        app:headerLayout="@layout/navigation_header">
+
+    </com.google.android.material.navigation.NavigationView>
+</androidx.drawerlayout.widget.DrawerLayout>
